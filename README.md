@@ -17,17 +17,15 @@ One must have Python installed in his local system for working on this Full stac
 # Structure of Application
 
 **App folder**
-```
-It contains static and templates folders which are used to contain html,css, JS and other files. Moreover It also contains init file which declares or initializes the instance of flask app, Other than that it also contains routes.py file which contains definition of all the routes being used in the application.
-```
+* It contains static and templates folders which are used to contain html,css, JS and other files. Moreover It also contains init file which declares or initializes the instance of flask app, Other than that it also contains routes.py file which contains definition of all the routes being used in the application.
+
 **Static folder**
-```
-It contains Style sheets and Javascript files. Moreover one can also put any JSON or other files to be used by the application.
-```
+
+* It contains Style sheets and Javascript files. Moreover one can also put any JSON or other files to be used by the application.
+
 **Templates folder**
-```
-It contains the HTML files used via any templating engine that are used by the flask application.
-```
+
+* It contains the HTML files used via any templating engine that are used by the flask application.
 
 # Running this Web Application
 
