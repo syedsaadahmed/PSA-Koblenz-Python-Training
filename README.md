@@ -31,7 +31,7 @@ One must have Python installed in his local system for working on this Full stac
 
 **using basic flask command**
 ```
-flask run
+$ flask run
 ```
 
 # Checking the User Interface
