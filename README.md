@@ -12,7 +12,10 @@ Python-Flask is a micro web framework written in Python which is used to develop
 
 ## Python, Python-Eve and Python-Flask
 
-One must have Python installed in his local system for working on this Full stack application easily. Other than Python one must also have to install Python-Eve, Python-Flask and its dependencies as mentioned in the requirements.txt file.
+One must have Python installed in his local system for working on this Full stack application easily. Other than Python one must also have to install Python-Eve, Python-Flask and its dependencies. To install flask, simply use
+```
+$ pip install flask
+```
 
 # Structure of Application
 
