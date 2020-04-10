@@ -41,6 +41,17 @@ https://localhost:5000/
 
 # Few Aspects Related To Using Python-Flask
 
+## Running in Debug Mode
+
+One have to restart it manually after each change to your code. That is not very nice and Flask can do better. If you enable debug support the server will reload itself on code changes, and it will also provide you with a helpful debugger if things go wrong.
+
+To enable all development features (including debug mode) you can export the FLASK_ENV environment variable and set it to development before running the server:
+```
+$ export FLASK_ENV=development
+$ flask run
+```
+You can also control debug mode separately from the environment by exporting FLASK_DEBUG=1.
+
 ## Documentation
 
 This RESTFUL-API is written using Python-Flask, Huge, extensive and detailed documentation for flask is provided (http://flask.pocoo.org/docs/1.0/), Furthermore a very strong support is also there on multiple platform all around the web.
