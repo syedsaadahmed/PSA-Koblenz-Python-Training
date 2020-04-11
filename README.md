@@ -37,6 +37,16 @@ $ pip install flask
 $ flask run
 ```
 
+**You can also run the Application via Gunicorn (Web Server)**
+```
+gunicorn --workers 4 --access-logfile /var/tmp/gunicorn.logs --bind 0.0.0.0:5000 wsgi:app
+```
+workers = 4 (The number of worker processes. This number should generally be between 2-4 workers per core in the server.)
+
+access-logfile = path of the file, where logs are to be saved
+
+bind = Specify a server socket to bind.
+
 # Checking the User Interface
 
 https://localhost:5000/
